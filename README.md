@@ -1,6 +1,24 @@
-# awesome-store
+# Vuetify Awesome Store Responsive Demo
 
-## Project setup
+This project is a front-end application that demonstrates Vuetify's responsive grid components.
+
+## Mockups
+
+### Desktop
+
+<img src="mockups/desktop_home.png" alt="Desktop Home Page">
+
+<img src="mockups/desktop_store.png" alt="Desktop Store Page">
+
+<img src="mockups/desktop_cart.png" alt="Desktop Cart Page">
+
+### Tablet
+
+### Mobile
+
+## Commands
+
+### Project setup
 ```
 npm install
 ```
