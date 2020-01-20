@@ -14,35 +14,35 @@ This project is a front-end application that demonstrates Vuetify's responsive g
 
 ### Desktop
 
-Home Page:
+<p>Home Page:</p>
 <img src="mockups/desktop_home.png" alt="Desktop Home Page">
 
-Store Page:
+<p>Store Page:</p>
 <img src="mockups/desktop_store.png" alt="Desktop Store Page">
 
-Cart Page:
+<p>Cart Page:</p>
 <img src="mockups/desktop_cart.png" alt="Desktop Cart Page">
 
 ### Tablet
 
-Home Page:
+<p>Home Page:</p>
 <img src="mockups/tablet_home.png" alt="Tablet Home Page">
 
-Store Page:
+<p>Store Page:</p>
 <img src="mockups/tablet_store.png" alt="Tablet Store Page">
 
-Cart Page:
+<p>Cart Page:</p>
 <img src="mockups/tablet_cart.png" alt="Tablet Cart Page">
 
 ### Mobile
 
-Home Page:
+<p>Home Page:</p>
 <img src="mockups/phone_home_and_menu.png" alt="Mobile Home Page">
 
-Store Page:
+<p>Store Page:</p>
 <img src="mockups/phone_store.png" alt="Mobile Store Page">
 
-Cart Page:
+<p>Cart Page:</p>
 <img src="mockups/phone_cart.png" alt="Mobile Cart Page">
 
 ## Commands
