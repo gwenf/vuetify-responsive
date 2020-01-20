@@ -2,6 +2,14 @@
 
 This project is a front-end application that demonstrates Vuetify's responsive grid components.
 
+## Table of Contents
+
+1. [Mockups](#mockups)
+    1. [Desktop](#desktop)
+    1. [Tablet](#tablet)
+    1. [Mobile](#mobile)
+1. [Commands](#commands)
+
 ## Mockups
 
 ### Desktop
@@ -14,7 +22,19 @@ This project is a front-end application that demonstrates Vuetify's responsive g
 
 ### Tablet
 
+<img src="mockups/tablet_home.png" alt="Tablet Home Page">
+
+<img src="mockups/tablet_store.png" alt="Tablet Store Page">
+
+<img src="mockups/tablet_cart.png" alt="Tablet Cart Page">
+
 ### Mobile
+
+<img src="mockups/phone_home_and_menu.png" alt="Mobile Home Page">
+
+<img src="mockups/phone_store.png" alt="Mobile Store Page">
+
+<img src="mockups/phone_cart.png" alt="Mobile Cart Page">
 
 ## Commands
 
