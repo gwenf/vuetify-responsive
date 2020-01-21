@@ -5,11 +5,11 @@ import store from './store'
 import router from './router'
 import './registerServiceWorker'
 
-// styles
-import './styles/index.sass'
-
 // plugins
 import vuetify from './plugins/vuetify'
+
+// styles
+import './styles/index.sass'
 
 Vue.config.productionTip = false
 
