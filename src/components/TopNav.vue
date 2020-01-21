@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-toolbar>
-      <v-toolbar-title>Awesome Store</v-toolbar-title>
+      <v-toolbar-title>Awesome Shop</v-toolbar-title>
 
       <v-spacer></v-spacer>
 
