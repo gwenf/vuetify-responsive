@@ -9,7 +9,7 @@
         align="center"
         justify="center"
       >
-        <h1>Welcome to Awesome Shop!</h1>
+        <h1 class="display-3">Welcome to Awesome Shop!</h1>
       </v-row>
     </v-container>
   </v-sheet>
