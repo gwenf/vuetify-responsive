@@ -37,11 +37,10 @@
       right
     >
       <v-list dense>
-        <!-- <v-divider></v-divider> -->
-
         <v-list-item
           v-for="item in items"
           :key="item.title"
+          :to="item.link"
           link
         >
           <v-list-item-icon>
@@ -63,9 +62,9 @@ export default {
     return {
       drawer: false,
       items: [
-        { title: 'Home', icon: 'home' },
-        { title: 'Store', icon: 'store' },
-        { title: 'Cart', icon: 'cart' }
+        { title: 'Home', link: 'home', icon: 'home' },
+        { title: 'Store', link: 'store', icon: 'store' },
+        { title: 'Cart', link: 'cart', icon: 'cart' }
       ]
     }
   }
