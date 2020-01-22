@@ -30,6 +30,7 @@
         </v-btn>
       </v-toolbar-items>
     </v-toolbar>
+
     <v-navigation-drawer
       v-model="drawer"
       absolute
@@ -62,7 +63,7 @@ export default {
     return {
       drawer: false,
       items: [
-        { title: 'Home', link: 'home', icon: 'home' },
+        { title: 'Home', link: '/', icon: 'home' },
         { title: 'Store', link: 'store', icon: 'store' },
         { title: 'Cart', link: 'cart', icon: 'cart' }
       ]
