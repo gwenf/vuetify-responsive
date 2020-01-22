@@ -13,7 +13,7 @@
         >
           <v-col
             col-sm="2"
-            v-for="product in products.slice(0, 3)"
+            v-for="(product, i) in products.slice(0, 3)"
             :key="product.name"
           >
             <v-card
@@ -37,6 +37,7 @@
                 <v-btn
                   color="success"
                   outlined
+                  @click="addToCart(i)"
                 >
                   <v-icon>mdi-plus</v-icon>
                   Add to Cart
@@ -51,14 +52,21 @@
 </template>
 
 <script>
-import { mapState } from 'vuex'
+import { mapState, mapMutations } from 'vuex'
 
 export default {
   data() {
     return {}
   },
   computed: {
-    ...mapState(['products'])
+    ...mapState(['products', 'cart'])
+  },
+  methods: {
+    ...mapMutations(['updateSnackbar', 'addItemToCart']),
+    addToCart(index, quantity = 1) {
+      this.addItemToCart({ itemId: index, quantity })
+      this.updateSnackbar({ show: true })
+    }
   }
 }
 </script>
