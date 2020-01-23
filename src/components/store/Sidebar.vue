@@ -6,7 +6,7 @@
       class="pa-8"
       tile
     >
-      <h3>Sidebar</h3>
+      <h3>Filters</h3>
       <v-radio-group v-model="priceFilter" :mandatory="true">
         <v-radio
           v-for="(price, i) in prices"

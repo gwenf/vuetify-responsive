@@ -7,10 +7,10 @@
     </v-row>
     <v-row>
       <v-col sm="10" offset-sm="1" md="8" offset-md="2">
-        <v-row
-        >
+        <v-row>
           <v-col
-            sm="4"
+            sm="6"
+            md="4"
             v-for="(product, i) in products.slice(0, 3)"
             :key="product.name"
           >
