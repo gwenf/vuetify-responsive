@@ -4,7 +4,8 @@
     <!-- list of product cards that wraps -->
     <v-row>
       <v-col
-        sm="4"
+        sm="6"
+        md="4"
         v-for="(product, i) in products"
         :key="product.name"
       >

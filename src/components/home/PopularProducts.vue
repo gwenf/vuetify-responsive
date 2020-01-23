@@ -6,7 +6,7 @@
       </v-col>
     </v-row>
     <v-row>
-      <v-col sm="10" offset-sm="1" md="8" offset-md="2">
+      <v-col sm="10" offset-sm="1" lg="8" offset-lg="2">
         <v-row>
           <v-col
             sm="6"

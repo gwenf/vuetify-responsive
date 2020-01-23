@@ -5,6 +5,7 @@
     <div class="d-flex flex-no-wrap justify-space-between">
       <v-img
         :src="product.image"
+        width="200px"
         height="200px"
       />
 
@@ -26,6 +27,7 @@
           Add to Cart
         </v-btn>
       </div>
+    </div>
   </v-card>
 </template>
 
@@ -39,7 +41,8 @@ export default {
       price: VueTypes.number.isRequired,
       image: VueTypes.string.isRequired
     }),
-    addToCart: VueTypes.func.isRequired,
+    addToCart: VueTypes.func,
+    removeFromCart: VueTypes.func,
     i: VueTypes.integer.isRequired
   }
 }
