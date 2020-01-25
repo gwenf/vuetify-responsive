@@ -1,13 +1,19 @@
 <template>
   <v-card
     outlined
+    min-width="100%"
+    class="mb-5"
   >
-    <div class="d-flex flex-no-wrap justify-space-between">
-      <v-img
-        :src="product.image"
-        width="200px"
-        height="200px"
-      />
+    <div class="d-flex">
+      <div>
+        <v-img
+          :src="product.image"
+          width="200px"
+          height="200px"
+        />
+      </div>
+
+      <v-spacer></v-spacer>
 
       <div>
         <v-card-title>
@@ -19,9 +25,19 @@
         </v-card-subtitle>
 
         <v-btn
+          v-if="btnAction === 'remove'"
+          color="error"
+          outlined
+          @click="updateCart(i)"
+        >
+          <v-icon>mdi-minus</v-icon>
+          Remove from Cart
+        </v-btn>
+        <v-btn
+          v-else
           color="success"
           outlined
-          @click="addToCart(i)"
+          @click="updateCart(i)"
         >
           <v-icon>mdi-plus</v-icon>
           Add to Cart
@@ -41,8 +57,8 @@ export default {
       price: VueTypes.number.isRequired,
       image: VueTypes.string.isRequired
     }),
-    addToCart: VueTypes.func,
-    removeFromCart: VueTypes.func,
+    updateCart: VueTypes.func.isRequired,
+    btnAction: VueTypes.string.isRequired,
     i: VueTypes.integer.isRequired
   }
 }

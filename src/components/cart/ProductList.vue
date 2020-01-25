@@ -1,7 +1,12 @@
 <template>
   <div>
     <v-row v-for="(product, i) in products" :key="i">
-      <HorizontalProduct :product="product" :i="i" :removeFromCart="removeFromCart" />
+      <HorizontalProduct
+        :product="product"
+        :i="i"
+        :updateCart="removeFromCart"
+        btnAction="remove"
+      />
     </v-row>
   </div>
 </template>
@@ -22,7 +27,6 @@ export default {
   },
   methods: {
     removeFromCart() {
-      
     }
   }
 }
