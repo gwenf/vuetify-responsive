@@ -2,21 +2,21 @@
   <v-card
     outlined
     min-width="100%"
-    class="mb-5"
+    class="mb-5 pa-4"
   >
     <div class="d-flex">
       <div>
         <v-img
           :src="product.image"
-          width="200px"
-          height="200px"
+          width="120px"
+          height="120px"
         />
       </div>
 
-      <v-spacer></v-spacer>
+      <!-- <v-spacer></v-spacer> -->
 
-      <div>
-        <v-card-title>
+      <div class="d-flex flex-column justify-center">
+        <v-card-title class="pt-0">
           {{ product.name }}
         </v-card-title>
 
@@ -27,19 +27,22 @@
         <v-btn
           v-if="btnAction === 'remove'"
           color="error"
+          class="ml-4"
           outlined
+          small
           @click="updateCart(i)"
         >
-          <v-icon>mdi-minus</v-icon>
+          <v-icon small>mdi-minus</v-icon>
           Remove from Cart
         </v-btn>
         <v-btn
           v-else
           color="success"
+          small
           outlined
           @click="updateCart(i)"
         >
-          <v-icon>mdi-plus</v-icon>
+          <v-icon small>mdi-plus</v-icon>
           Add to Cart
         </v-btn>
       </div>

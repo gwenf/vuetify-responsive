@@ -6,7 +6,7 @@ export default [
   },
   {
     image: '/img/products/product-2.jpg',
-    name: 'Gameboy Coffee Mug',
+    name: 'Gameboy Mug',
     price: 19.99
   },
   {
@@ -16,7 +16,7 @@ export default [
   },
   {
     image: '/img/products/product-4.jpg',
-    name: 'Jeopardy Game Cartridge',
+    name: 'Jeopardy Game',
     price: 30
   },
   {
