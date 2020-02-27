@@ -31,7 +31,7 @@ export default {
   },
   methods: {
     goToCheckout() {
-      // TODO: navigate to checkout
+      this.$router.push({ name: 'checkout' })
     }
   }
 }

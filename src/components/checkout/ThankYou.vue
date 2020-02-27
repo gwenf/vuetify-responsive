@@ -1,0 +1,1 @@
+// v-if with spinner or thank you text
