@@ -5,7 +5,7 @@
         <ProductList />
       </v-col>
       <v-col sm="4" xl="3">
-        <CheckoutForm />
+        <CheckoutBox />
       </v-col>
     </v-row>
   </v-container>
@@ -13,12 +13,12 @@
 
 <script>
 import ProductList from '@/components/cart/ProductList.vue'
-import CheckoutForm from '@/components/cart/CheckoutForm.vue'
+import CheckoutBox from '@/components/cart/CheckoutBox.vue'
 
 export default {
   components: {
     ProductList,
-    CheckoutForm
+    CheckoutBox
   }
 }
 </script>
