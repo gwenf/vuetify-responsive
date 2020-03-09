@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-toolbar>
+    <v-app-bar>
       <v-toolbar-title>Awesome Shop</v-toolbar-title>
 
       <v-spacer></v-spacer>
@@ -29,7 +29,7 @@
           Cart
         </v-btn>
       </v-toolbar-items>
-    </v-toolbar>
+    </v-app-bar>
 
     <v-navigation-drawer
       v-model="drawer"
