@@ -4,7 +4,7 @@ This project is a front-end application that demonstrates Vuetify's responsive g
 
 Videos where I worked on this project:
 
-- V-model and form wizard: youtube.com/watch?v=BBCLkvllqYs
+- V-model and form wizard: https://youtube.com/watch?v=BBCLkvllqYs
 
 ## Table of Contents
 
