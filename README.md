@@ -2,6 +2,10 @@
 
 This project is a front-end application that demonstrates Vuetify's responsive grid components.
 
+Videos where I worked on this project:
+
+- V-model and form wizard: youtube.com/watch?v=BBCLkvllqYs
+
 ## Table of Contents
 
 1. [Mockups](#mockups)
